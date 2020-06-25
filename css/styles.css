@@ -259,15 +259,6 @@ img {
   line-height: 1.7;
 }
 
-/*.advantages {
-  display: block;
-  padding-right: 75px;
-  padding-left: 75px;
-}*/
-
-/*.foto-center {
-  justify-content: center;
-}*/
 
 /*activity*/
 
@@ -365,7 +356,17 @@ img {
   margin-bottom: 24px;
   width: 44px;
   height: 44px;
-  
+  background: rgba(255, 255, 255, 0);
+  border-radius: 50%;
+  background-size: contain;
+}
+
+.social-img:hover {
+  background: var(--link-color); 
+}
+
+.icon-social:hover {
+  --color3: #ffffff;
 }
 
 /*clients*/
@@ -393,8 +394,16 @@ img {
   border-radius: 4px;
 }
 
+.clients-item:hover {
+ border: 1px solid var(--link-color);  
+}
+
 .clients .clients-item:not(:last-child) {
   margin-right: 30px;
+}
+
+.icon-clients:hover {
+  --color3: var(--link-color);
 }
 
 /*Foter*/
@@ -468,6 +477,11 @@ img {
   border-radius: 50%;
   background-size: contain;
 }
+
+.circle:hover {
+  background: var(--link-color);
+}
+
 /*---styles portfolio--*/
 
 .pro {
