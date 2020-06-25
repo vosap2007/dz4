@@ -109,6 +109,16 @@ img {
   margin-right: 30px;
 }
 
+.auth-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;}
+
+  .auth-smart {
+  display: flex;
+  justify-content: center;
+  align-items: center;}
+
 .auth-nav .links {
   color: #757575;
   font-weight: 500;
@@ -282,7 +292,8 @@ img {
 }
 
 .activity-title {
-  color: var(--button-color);
+  /*color: var(--button-color);*/
+  color: #2f303a
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
@@ -347,10 +358,14 @@ img {
 }
 
 .social-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 16px;
   margin-bottom: 24px;
   width: 44px;
   height: 44px;
+  
 }
 
 /*clients*/
@@ -368,6 +383,9 @@ img {
 }
 
 .clients-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 170px;
   height: 90px;
   border: 1px solid #afb1b8;
@@ -441,6 +459,9 @@ img {
 }
 
 .circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: rgba(255, 255, 255, 0.1);
   width: 44px;
   height: 44px;
