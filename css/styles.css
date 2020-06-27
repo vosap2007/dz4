@@ -26,18 +26,16 @@ img {
 
 /*main-nav*/
 
-.header {
-  margin-bottom: 200px;
-}
 
 .header-portfolio {
-  margin-bottom: 110px;
+  margin-bottom: 93px;
   border-bottom: 1px solid #ececec;
 }
 
 .main-nav {
   display: flex;
   align-items: center;
+}
 }
 
 /*Logo*/
@@ -98,11 +96,23 @@ img {
 
 .auth-nav {
   display: flex;
-  margin-left: auto;
+  margin-left: 305px;
 
   list-style: none;
   padding: 0px;
   /*margin: 0px;*/
+}
+
+.smart {
+  width: 10px; 
+  height: 15px;
+  margin-right: 10px;
+}
+
+.envelope {
+  width:16px;
+  height:11.2px;
+  margin-right: 10px;
 }
 
 .auth-nav .auth-con:not(:last-child) {
@@ -151,8 +161,9 @@ img {
 
 .hero {
   text-align: center;
-  margin-bottom: 295px;
+  margin-bottom: 94px;
   background-color: slategrey;
+  padding-top: 200px;
 }
 
 .hero-title {
@@ -160,11 +171,9 @@ img {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
-
-  padding-top: 0px;
   padding-bottom: 0px;
-  margin-top: 0px;
   margin-bottom: 30px;
+  margin-top: 0px;
 }
 
 .hero-button {
@@ -185,9 +194,8 @@ img {
 /*section*/
 
 .section-features {
-  margin-bottom: 188px;
+  margin-bottom: 94px;
   margin-top: 0px;
-  border-bottom: 1px solid #ececec;
 }
 
 .section-title {
@@ -263,7 +271,7 @@ img {
 /*activity*/
 
 .section-activity {
-  margin-bottom: 188px;
+  margin-bottom: 94px;
   margin-top: 0px;
 }
 
@@ -316,7 +324,7 @@ img {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
-  margin-top: 30px;
+  margin-top: 0px;
   margin-bottom: 10px;
 }
 
@@ -373,7 +381,7 @@ img {
 
 .section-clients {
   margin-top: 0px;
-  margin-bottom: 95px;
+  margin-bottom: 76px;
 }
 
 .clients {
@@ -498,7 +506,8 @@ img {
   margin-left: auto;
   margin-right: auto;
   margin-top: 0px;
-  margin-bottom: 50px;
+  margin-bottom: 34px;
+  justify-content: center;
 }
 
 .filter .filter-button:not(:last-child) {
@@ -545,6 +554,7 @@ img {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
+  margin-top: 0px;
 }
 
 .projects-text {
